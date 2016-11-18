@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="g2q-Ud-1zd">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--主頁-->
+        <scene sceneID="HA9-cE-Fyj">
+            <objects>
+                <viewController id="hto-Yb-b6E" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wvm-5c-Zph"/>
+                        <viewControllerLayoutGuide type="bottom" id="18N-s4-Uc0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xwM-Pb-vec">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1436339174-3539720807_l" translatesAutoresizingMaskIntoConstraints="NO" id="ayU-EH-vUc">
+                                <rect key="frame" x="43" y="83" width="325" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="要一探究竟基隆美食嗎？" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NzS-ZJ-NEP">
+                                <rect key="frame" x="32" y="412" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.92254381334923696" blue="0.70717975876935801" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="主頁" id="Pwq-wX-g2Y"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nMv-rA-RCE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="440.80000000000001" y="-377.36131934032989"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ilK-Od-Bne">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="g2q-Ud-1zd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="brP-5Q-p7y">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="hto-Yb-b6E" kind="relationship" relationship="viewControllers" id="FXn-vw-Ndg"/>
+                        <segue destination="c0z-KE-fxA" kind="relationship" relationship="viewControllers" id="kgh-TD-B7b"/>
+                        <segue destination="8gt-YZ-9wW" kind="relationship" relationship="viewControllers" id="AEh-1e-LTt"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LGb-hz-mLy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2086" y="-732"/>
+        </scene>
+        <!--帥哥-->
+        <scene sceneID="fpD-cg-NIb">
+            <objects>
+                <viewController title="帥哥" id="8gt-YZ-9wW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nkw-B0-JUd"/>
+                        <viewControllerLayoutGuide type="bottom" id="S9D-Y6-FDX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jH9-IZ-YPy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1506732_10203416445883493_2093850579470301928_n" translatesAutoresizingMaskIntoConstraints="NO" id="tuo-rg-ExF">
+                                <rect key="frame" x="56" y="225" width="263" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Peter Pen!!!" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I7h-0D-Qv0">
+                                <rect key="frame" x="34" y="79" width="311" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.87284739760917474" green="1" blue="0.22266213048137895" alpha="0.061189177852348994" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="帥哥在這" id="rOi-9q-r8T"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6G8-bl-SDn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2327.1999999999998" y="446.62668665667172"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="apP-Tg-9e1">
+            <objects>
+                <tableViewController id="bvu-Xd-r8G" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Aia-Ux-QO7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="3rz-8d-sLd">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="112" id="6jK-oy-fYl">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="112"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6jK-oy-fYl" id="59e-Rf-tdj">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="111"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1436339174-3539720807_l" translatesAutoresizingMaskIntoConstraints="NO" id="gZU-6M-lQD">
+                                                    <rect key="frame" x="8" y="0.0" width="191" height="111"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hwh-mO-5CZ">
+                                                    <rect key="frame" x="198" y="40" width="177" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.99857954090000001" green="1" blue="0.39547999700000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <state key="normal" title="林桑壽司">
+                                                        <color key="titleColor" red="1" green="0.15129315685264422" blue="0.16128888151030529" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="titleShadowColor" red="0.0" green="1" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="gUu-q0-zvv" kind="show" id="AsJ-Ar-KuB"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="112" id="Xhu-Tk-kpc">
+                                        <rect key="frame" x="0.0" y="112" width="375" height="112"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xhu-Tk-kpc" id="jZJ-KJ-LG8">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="111"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9" translatesAutoresizingMaskIntoConstraints="NO" id="r1g-Tt-9br">
+                                                    <rect key="frame" x="8" y="0.0" width="191" height="111"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypp-2F-PfK">
+                                                    <rect key="frame" x="198" y="35" width="177" height="41"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.99857954090000001" green="1" blue="0.39547999700000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <state key="normal" title="阿華炒麵">
+                                                        <color key="titleColor" red="1" green="0.1512931569" blue="0.16128888150000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="titleShadowColor" red="0.0" green="1" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="03K-cK-9vs" kind="show" id="uGl-Pj-Pw8"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="112" id="slq-pb-KuE">
+                                        <rect key="frame" x="0.0" y="224" width="375" height="112"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="slq-pb-KuE" id="WuL-LX-bRz">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="111"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="21671735748_5f2d6113a6_z" translatesAutoresizingMaskIntoConstraints="NO" id="2og-DA-ik6">
+                                                    <rect key="frame" x="8" y="0.0" width="191" height="111"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rCl-6N-Maq">
+                                                    <rect key="frame" x="198" y="35" width="177" height="41"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.99857954090000001" green="1" blue="0.39547999700000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <state key="normal" title="吉古拉">
+                                                        <color key="titleColor" red="1" green="0.1512931569" blue="0.16128888150000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="titleShadowColor" red="0.0" green="1" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="Fgt-rG-ggU" kind="show" id="vqG-1n-AK8"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="112" id="RZk-GS-3j0">
+                                        <rect key="frame" x="0.0" y="336" width="375" height="112"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RZk-GS-3j0" id="dAw-5k-aCj">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="111"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="魚湯" translatesAutoresizingMaskIntoConstraints="NO" id="acl-ai-mmK">
+                                                    <rect key="frame" x="8" y="0.0" width="190" height="111"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sQz-fA-o9Z">
+                                                    <rect key="frame" x="198" y="35" width="177" height="41"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.99857954090000001" green="1" blue="0.39547999700000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <state key="normal" title="俞家魚湯">
+                                                        <color key="titleColor" red="1" green="0.1512931569" blue="0.16128888150000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="titleShadowColor" red="0.0" green="1" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="yI5-0z-xNE" kind="show" id="b4d-MN-hBt"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="112" id="QW7-ks-bXx">
+                                        <rect key="frame" x="0.0" y="448" width="375" height="112"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QW7-ks-bXx" id="dcB-me-GXQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="111"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cgm2d4ce928052307fb4477f24692415721615" translatesAutoresizingMaskIntoConstraints="NO" id="G1b-gN-Zxq">
+                                                    <rect key="frame" x="8" y="0.0" width="191" height="111"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WSd-Lg-HIU">
+                                                    <rect key="frame" x="198" y="35" width="177" height="41"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.99857954090000001" green="1" blue="0.39547999700000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <state key="normal" title="周家蔥油餅">
+                                                        <color key="titleColor" red="1" green="0.1512931569" blue="0.16128888150000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="titleShadowColor" red="0.0" green="1" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="2cr-Fc-g7d" kind="show" id="A62-7d-H0d"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="bvu-Xd-r8G" id="3H5-0V-Gwd"/>
+                            <outlet property="delegate" destination="bvu-Xd-r8G" id="24O-HE-qP3"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="qxZ-hG-JqO"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9qL-8K-6x8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-271.19999999999999" y="446.62668665667172"/>
+        </scene>
+        <!--林桑壽司-->
+        <scene sceneID="nRi-UF-mH6">
+            <objects>
+                <viewController title="林桑壽司" id="gUu-q0-zvv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yWt-8m-MTF"/>
+                        <viewControllerLayoutGuide type="bottom" id="fWJ-fm-1aU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="22I-Bt-qdI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1436339174-3539720807_l" translatesAutoresizingMaskIntoConstraints="NO" id="mEA-ex-HnB">
+                                <rect key="frame" x="29" y="80" width="316" height="236"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IUN-rD-vaE">
+                                <rect key="frame" x="53" y="415" width="269" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.061189177849999998" colorSpace="calibratedWhite"/>
+                                <string key="text">林桑壽司 地址 : 201基隆市信義區祥豐街66號祥豐市場
+電話 : (02)2462-222
+營業時間 :11:30~14:00/16:30~21:00 週三公休 </string>
+                                <color key="textColor" red="0.27011618030000001" green="0.57524234529999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GFh-BO-pph" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="394" y="1266"/>
+        </scene>
+        <!--阿華炒麵-->
+        <scene sceneID="kG2-M4-Qaw">
+            <objects>
+                <viewController title="阿華炒麵" id="03K-cK-9vs" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dNf-1p-r9S"/>
+                        <viewControllerLayoutGuide type="bottom" id="9HR-IY-k6B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aMY-Rc-QUY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1365427236-3627063439" translatesAutoresizingMaskIntoConstraints="NO" id="yjb-3c-0aY">
+                                <rect key="frame" x="29" y="82" width="316" height="236"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2pm-mg-Ewx">
+                                <rect key="frame" x="52" y="415" width="271" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.061189177849999998" colorSpace="calibratedWhite"/>
+                                <string key="text">廟口阿華炒麵 地址 : 基隆市仁愛區愛四路１號之３
+電話 : (02)2429-2163
+營業時間 : 週一休息。AM10:00~隔天AM06:00</string>
+                                <color key="textColor" red="0.27011618030000001" green="0.57524234529999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8oi-nL-VYN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-256.80000000000001" y="1266.1169415292354"/>
+        </scene>
+        <!--吉古拉-->
+        <scene sceneID="T6d-ag-TWd">
+            <objects>
+                <viewController title="吉古拉" id="Fgt-rG-ggU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GgT-ya-r8X"/>
+                        <viewControllerLayoutGuide type="bottom" id="di9-ab-rhS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="THF-pz-fg4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="21859584105_da6c6d1078_z" translatesAutoresizingMaskIntoConstraints="NO" id="ZO0-xL-fav">
+                                <rect key="frame" x="29" y="80" width="316" height="236"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qkw-pB-0uw">
+                                <rect key="frame" x="51" y="417" width="272" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.061189177852348994" colorSpace="calibratedWhite"/>
+                                <string key="text">涂老闆手工炭烤吉古拉(ちくわ)
+地址 : 基隆市正濱路27號
+電話 : 0921140048
+營業時間 : 沒有固定，欲前往者請先打電話詢問</string>
+                                <color key="textColor" red="0.27011618034340179" green="0.57524234534391661" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9lQ-N6-KvK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-906.39999999999998" y="1266.1169415292354"/>
+        </scene>
+        <!--周家蔥油餅-->
+        <scene sceneID="NqG-Ht-8o6">
+            <objects>
+                <viewController title="周家蔥油餅" id="2cr-Fc-g7d" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0SK-Km-xsu"/>
+                        <viewControllerLayoutGuide type="bottom" id="tuB-aq-REg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="G5I-P9-MBs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1181567012" translatesAutoresizingMaskIntoConstraints="NO" id="WxP-PF-PRu">
+                                <rect key="frame" x="35" y="82" width="316" height="236"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="p3R-7Y-rPC">
+                                <rect key="frame" x="53" y="412" width="269" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.061189177849999998" colorSpace="calibratedWhite"/>
+                                <string key="text">周家蔥油餅 地址 : 基隆市信二路309號
+電話 : 02-2425-9988
+營業時間 : 早上4點半到下午1點週一公休</string>
+                                <color key="textColor" red="0.27011618030000001" green="0.57524234529999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xrH-kL-hTy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1026" y="1266"/>
+        </scene>
+        <!--俞家魚湯-->
+        <scene sceneID="xZw-yf-8x4">
+            <objects>
+                <viewController title="俞家魚湯" id="yI5-0z-xNE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xir-hJ-HBb"/>
+                        <viewControllerLayoutGuide type="bottom" id="87g-iQ-Xr1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b6x-eB-nWi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="photo" translatesAutoresizingMaskIntoConstraints="NO" id="1zs-2i-s6E">
+                                <rect key="frame" x="29" y="84" width="322" height="236"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="M5Q-xB-D6a">
+                                <rect key="frame" x="42" y="400" width="269" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.061189177849999998" colorSpace="calibratedWhite"/>
+                                <string key="text">俞家魚湯 地址 : 基隆市中山區仁安街131號
+電話 : 0933934971 營業時間 : 1:30分至賣完為止 週一週二公休 </string>
+                                <color key="textColor" red="0.27011618030000001" green="0.57524234529999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dAZ-mE-IxG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1712.8" y="1265.217391304348"/>
+        </scene>
+        <!--美食簡介-->
+        <scene sceneID="FpP-lz-zOK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="c0z-KE-fxA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="美食簡介" id="Mrr-9z-3Bf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Z2G-vV-UiG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bvu-Xd-r8G" kind="relationship" relationship="rootViewController" id="oc8-oA-Od3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MT9-GO-kT8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1210.4000000000001" y="446.62668665667172"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1181567012" width="456" height="295"/>
+        <image name="1365427236-3627063439" width="640" height="480"/>
+        <image name="1436339174-3539720807_l" width="1024" height="683"/>
+        <image name="1506732_10203416445883493_2093850579470301928_n" width="960" height="960"/>
+        <image name="21671735748_5f2d6113a6_z" width="640" height="426"/>
+        <image name="21859584105_da6c6d1078_z" width="640" height="426"/>
+        <image name="9" width="640" height="480"/>
+        <image name="cgm2d4ce928052307fb4477f24692415721615" width="450" height="303"/>
+        <image name="photo" width="240" height="240"/>
+        <image name="魚湯" width="600" height="400"/>
+    </resources>
+</document>
